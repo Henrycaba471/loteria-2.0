@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>PRONOSTICO LOTERIAS COLOMBIA | 2.0</title>
+</head>
+
+<body>
+    <h1>PRONOSTICO LOTERIAS COLOMBIA | 2.0</h1>
+    <div class="week-days">
+        <button id="lunes">LUNES</button>
+        <button id="martes">MARTES</button>
+        <button id="miercoles">MIERCOLES</button>
+        <button id="jueves">JUEVES</button>
+        <button id="viernes">VIERNES</button>
+        <button id="sabado">SABADO</button>
+        <button id="domingo">DOMINGOS Y FESTIVOS</button>
+        <button id="reload">ACTUALIZAR</button>
+    </div>
+    <div class="box-loterias">
+        <h2 class="title">PIDE TU PRONOSTICO DEL DIA</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>LOTERIAS</th>
+                    <th>PRONOSTICOS</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            <hr>
+        </table>
+        <hr>
+    </div>
+    <template class="template">
+        <tr>
+            <td class="lot"></td>
+            <td class="pronostico"></td>
+        </tr>
+    </template>
+    <script src="app_lot.js"></script>
+</body>
+
+</html>
